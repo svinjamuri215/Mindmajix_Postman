@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "685c613e-1e18-4ea8-ab66-88a67942a76c",
+		"name": "MindMAJIX HAR",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21562108",
+		"_collection_link": "https://red-capsule-882939.postman.co/workspace/REST-API-PROJECT_1~2625abdd-2729-4c7b-8557-96879bf50c8f/collection/21562108-685c613e-1e18-4ea8-ab66-88a67942a76c?action=share&source=collection_link&creator=21562108"
+	},
+	"item": [
+		{
+			"name": "qoc1s6rbq3.execute-api.us-west-2.amazonaws.com/dev/auth/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": ":authority",
+						"value": "qoc1s6rbq3.execute-api.us-west-2.amazonaws.com",
+						"disabled": true
+					},
+					{
+						"key": ":method",
+						"value": "POST",
+						"disabled": true
+					},
+					{
+						"key": ":path",
+						"value": "/dev/auth/signin",
+						"disabled": true
+					},
+					{
+						"key": ":scheme",
+						"value": "https",
+						"disabled": true
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br, zstd"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-length",
+						"value": "82"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://mindmajix.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://mindmajix.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"email\": \"svinjamuri@gmail.com\",\n \"password\": \"Vinja7115\",\n \"ipAddress\": \"76.102.43.47\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL2}}/dev/auth/signin",
+					"host": [
+						"{{baseURL2}}"
+					],
+					"path": [
+						"dev",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": " / 401",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": ":authority",
+								"value": "qoc1s6rbq3.execute-api.us-west-2.amazonaws.com",
+								"disabled": true
+							},
+							{
+								"key": ":method",
+								"value": "POST",
+								"disabled": true
+							},
+							{
+								"key": ":path",
+								"value": "/dev/auth/signin",
+								"disabled": true
+							},
+							{
+								"key": ":scheme",
+								"value": "https",
+								"disabled": true
+							},
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-encoding",
+								"value": "gzip, deflate, br, zstd"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-US,en;q=0.9"
+							},
+							{
+								"key": "content-length",
+								"value": "82"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "origin",
+								"value": "https://mindmajix.com"
+							},
+							{
+								"key": "referer",
+								"value": "https://mindmajix.com/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "cross-site"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"email\": \"svinjamuri@gmail.com\",\n \"password\": \"Vinja7115\",\n \"ipAddress\": \"76.102.43.47\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL2}}/dev/auth/signin",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"dev",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "access-control-allow-credentials",
+							"value": "true"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "access-control-max-age",
+							"value": "0"
+						},
+						{
+							"key": "content-length",
+							"value": "62"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "date",
+							"value": "Mon, 08 Apr 2024 23:39:46 GMT"
+						},
+						{
+							"key": "via",
+							"value": "1.1 65cd593770fc4ba0453da1c7897f675c.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "x-amz-apigw-id",
+							"value": "V7j6cEH8vHcEEMg="
+						},
+						{
+							"key": "x-amz-cf-id",
+							"value": "lazjy40c2XGHIJx7jxJZJ7HXghDA8de8eTjLAWt6aY0dH_PooW09Jw=="
+						},
+						{
+							"key": "x-amz-cf-pop",
+							"value": "SFO5-P2"
+						},
+						{
+							"key": "x-amzn-requestid",
+							"value": "4dabd6bd-99d4-4836-adf8-cfd7f8ea2c18"
+						},
+						{
+							"key": "x-amzn-trace-id",
+							"value": "Root=1-66148042-4e684ff914771e5d1bd875a4;Parent=134a5d1d71559837;Sampled=0;lineage=718111ec:0"
+						},
+						{
+							"key": "x-cache",
+							"value": "Error from cloudfront"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"message\": \"User with given email not exists\",\n \"success\": false\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "https://analytics.google.com",
+			"type": "any"
+		},
+		{
+			"key": "baseURL2",
+			"value": "https://qoc1s6rbq3.execute-api.us-west-2.amazonaws.com",
+			"type": "any"
+		}
+	]
+}
