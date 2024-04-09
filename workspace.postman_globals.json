@@ -1,0 +1,33 @@
+{
+	"id": "3c6ea04c-3075-4f4f-8883-8c9724f56428",
+	"values": [
+		{
+			"key": "globalID",
+			"value": 6811645,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "globalName",
+			"value": "Efren",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "globalEmail",
+			"value": "Rocio9@yahoo.com",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "globalStatus",
+			"value": "active",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-04-09T00:05:15.278Z",
+	"_postman_exported_using": "Postman/10.24.11"
+}
